@@ -17,8 +17,6 @@ export default function BackToTop() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
-  if (window.innerWidth < 768) return null;
-
   return (
     <AnimatePresence>
       {visible && (

@@ -123,41 +123,42 @@ export default function Projects() {
                 }}
                 viewport={{ once: true }}
               >
-                <Card className="p-10 h-full">
-                  <div className="flex items-start justify-between mb-10">
-                    <div className="min-w-0">
-                      {/* Category + responsive icons */}
-                      <div className="flex items-center gap-2 mb-3">
-                        <div className="flex items-center">
-                          {project.responsive.includes("desktop") && (
-                            <Monitor
-                              size={16}
-                              strokeWidth={2}
-                              className="text-blue-400"
-                            />
-                          )}
+                <Card className="p-4 sm:p-10 h-full">
+                  <div className="flex flex-col mb-4">
+                    {/* Responsive icons + Category*/}
+                    <div className="flex items-center gap-2 mb-3">
+                      <div className="flex items-center">
+                        {project.responsive.includes("desktop") && (
+                          <Monitor
+                            size={16}
+                            strokeWidth={2}
+                            className="text-blue-400"
+                          />
+                        )}
 
-                          {project.responsive.includes("mobile") && (
-                            <Smartphone
-                              size={16}
-                              strokeWidth={2}
-                              className="text-blue-400"
-                            />
-                          )}
-                        </div>
-                        <p
-                          className="
+                        {project.responsive.includes("mobile") && (
+                          <Smartphone
+                            size={16}
+                            strokeWidth={2}
+                            className="text-blue-400"
+                          />
+                        )}
+                      </div>
+                      <p
+                        className="
                             text-xs
                             uppercase
                             tracking-[0.3em]
                             text-blue-400
                           "
-                        >
-                          · {project.category}
-                        </p>
-                      </div>
+                      >
+                        · {project.category}
+                      </p>
+                    </div>
 
-                      <div className="flex items-center gap-3 flex-wrap">
+                    <div className="flex justify-between min-w-0">
+                      {/* Project title and link */}
+                      <div className="flex flex-col flex-wrap">
                         <h3
                           className="
                             text-3xl
@@ -172,6 +173,7 @@ export default function Projects() {
                           <span
                             className="
                               inline-flex
+                              self-start
                               items-center
                               rounded-full
                               border border-amber-500/20
@@ -194,6 +196,7 @@ export default function Projects() {
                               rel="noopener noreferrer"
                               className="
                                 inline-flex
+                                self-start
                                 items-center
                                 gap-1.5
                                 rounded-full
@@ -214,11 +217,10 @@ export default function Projects() {
                           )
                         )}
                       </div>
-                    </div>
 
-                    {/* Project icon */}
-                    <div
-                      className="
+                      {/* Project icon */}
+                      <div
+                        className="
                         w-16 h-16
                         rounded-2xl
                         bg-blue-500/10
@@ -227,8 +229,9 @@ export default function Projects() {
                         shrink-0
                         ml-4
                       "
-                    >
-                      <Icon size={30} className="text-blue-400" />
+                      >
+                        <Icon size={30} className="text-blue-400" />
+                      </div>
                     </div>
                   </div>
 

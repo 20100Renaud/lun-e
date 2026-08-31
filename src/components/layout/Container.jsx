@@ -4,7 +4,7 @@ export default function Container({ children, className = "" }) {
       className={`
         max-w-7xl
         mx-auto
-        px-6
+        px-2
         lg:px-10
         ${className}
       `}
