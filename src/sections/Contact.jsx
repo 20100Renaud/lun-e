@@ -55,7 +55,7 @@ export default function Contact() {
               "
             >
               Site internet, application web, outil métier ou solution de
-              gestion : construisons ensemble un outil adapté à votre activité.
+              gestion : construisons ensemble un outil adapté à votre besoin.
             </p>
 
             <Button>

@@ -7,7 +7,7 @@ export default function Section({ children, id, className = "" }) {
         min-h-screen
         flex
         items-center
-        pt-24 lg:pt-8
+        pt-24
         overflow-hidden
         ${className}
       `}

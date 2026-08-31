@@ -54,7 +54,7 @@ export default function Contact() {
         </>
       }
       description="
-        Site internet, application web ou solution de gestion : construisons ensemble un outil adapté à votre activité."
+        Site internet, application web ou solution de gestion : construisons ensemble un outil adapté à votre besoin."
       visual={<ContactForm />}
       children={
         <p>Décrivez votre projet et je vous recontacterai rapidement</p>

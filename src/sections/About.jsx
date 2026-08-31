@@ -37,26 +37,20 @@ export default function About() {
               <div className="pl-8 space-y-4">
                 <p>
                   <i>
-                    En 2012, je me suis mis à mon compte en tant que prestataire
-                    de service.
+                    En 2012, j’ai lancé mon activité en tant que prestataire de
+                    services. Rapidement, j’ai constaté que la gestion
+                    administrative prenait le pas sur mon cœur de métier. Pour
+                    optimiser mon temps, j’ai développé ma première application
+                    à l’aide d’outils de gestion de bases de données.
                   </i>
                 </p>
                 <p>
                   <i>
-                    J'ai rapidement réalisé que je passais beaucoup de temps à
-                    la gestion plutôt qu'à exercer mon coeur de métier.
-                  </i>
-                </p>
-                <p>
-                  <i>
-                    J'ai alors développé ma première application grâce à des
-                    outils de gestion de bases de données.
-                  </i>
-                </p>
-                <p>
-                  <i>
-                    Aujourd'hui, je propose mon expérience au service d'autres
-                    entrepreneurs.
+                    Grâce à ma formation à Holberton School en 2026, j’ai élargi
+                    mes compétences techniques et stratégiques. Aujourd’hui, je
+                    mets mon expérience au service de particuliers et d’entrepreneurs pour les accompagner dans la gestion de leur
+                    activité, l’élaboration de projets sur mesure et adaptés à
+                    leurs besoins.
                   </i>
                 </p>
               </div>
