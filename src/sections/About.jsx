@@ -41,13 +41,13 @@ export default function About() {
                     services. Rapidement, j’ai constaté que la gestion
                     administrative prenait le pas sur mon cœur de métier. Pour
                     optimiser mon temps, j’ai développé ma première application
-                    à l’aide d’outils de gestion de bases de données.
+                    à l’aide d’outils de gestion de bases de données existants.
                   </i>
                 </p>
                 <p>
                   <i>
-                    Grâce à ma formation à Holberton School en 2026, j’ai élargi
-                    mes compétences techniques et stratégiques. Aujourd’hui, je
+                    Grâce à ma formation chez Holberton School, qui s'est clôturée en 2026, j’ai élargi
+                    mes compétences techniques et conçois mes propres applications. Aujourd’hui, je
                     mets mon expérience au service de particuliers et d’entrepreneurs pour les accompagner dans la gestion de leur
                     activité, l’élaboration de projets sur mesure et adaptés à
                     leurs besoins.

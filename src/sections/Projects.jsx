@@ -36,7 +36,7 @@ const projects = [
     url: "https://20100renaud.github.io/du_croquis_a_l_oeuvre/",
     icon: LayoutGrid,
     description:
-      "Book intéractif premettant de partager avec des proches ou des clients les créations artistiques. La version modile et bureau offrent deux expériences distinctes.",
+      "Book intéractif premettant de partager des créations artistiques avec des proches ou des clients. La version modile et bureau offrent deux expériences distinctes.",
   },
 
   {
@@ -51,6 +51,17 @@ const projects = [
   },
 
   {
+    title: "Partisong",
+    responsive: ["desktop"],
+    category: "Application Web",
+    status: "completed",
+    url: "https://20100renaud.github.io/Partisong/",
+    icon: Music4,
+    description:
+      "Outil d’édition de partitions musicales pour un résultat homogène et personnalisable.",
+  },
+  
+  {
     title: "ShareUp",
     responsive: ["desktop", "mobile"],
     category: "Application Web et web-mobile",
@@ -59,17 +70,6 @@ const projects = [
     icon: Sprout,
     description:
       "Plateforme communautaire dédiée à l’échange de biens issus du jardin.",
-  },
-
-  {
-    title: "Partisong",
-    responsive: ["desktop"],
-    category: "Application Web",
-    status: "in-progress",
-    url: "",
-    icon: Music4,
-    description:
-      "Outil d’édition de partitions musicales pour un résultat homogène et personnalisable.",
   },
 
   {
